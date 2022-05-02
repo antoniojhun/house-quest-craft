@@ -24,15 +24,16 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 6a0c610e-4e47-4716-a63d-8728b4de0d91
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 9e1ec516-06db-4ea2-bcbb-7dfafe62a1a5
 fs: site
 handle: site
-hasUrls: true
 name: Site
 sortOrder: 0
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-url: '@web/assets/site'
+transformFs: null
+transformSubpath: ''
