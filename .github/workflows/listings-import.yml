@@ -1,9 +1,10 @@
 name: Import listings from External API
 
 on:
-  schedule:
-  # import every 5 minutes
-  - cron: '*/10 * * * *'
+  workflow_dispatch:
+#   schedule:
+#   # import every 5 minutes
+#   - cron: '*/10 * * * *'
 jobs:
   feed_me:
     name: Run Feed Me Import
