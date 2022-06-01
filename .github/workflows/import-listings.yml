@@ -1,6 +1,7 @@
 name: Import Listings from External API
 on:
-  workflow_dispatch:
+  schedule:
+  - cron: '*/10 * * * *'
 jobs:
   feed_me:
     name: Run Feed Me Queue
