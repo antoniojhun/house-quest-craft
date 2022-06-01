@@ -3,9 +3,10 @@
   "description": "A starter Craft project for Craft CMS Training. Based on a repository by @nystudio107.",
   "require": {
     "craftcms/cms": "^4.0.0-RC1",
+    "craftcms/feed-me": "^5.0",
+    "craftcms/redactor": "3.0.0-beta.3",
     "vlucas/phpdotenv": "^5.4.0",
-    "yiisoft/yii2-redis": "^2.0.6",
-    "craftcms/redactor": "3.0.0-beta.3"
+    "yiisoft/yii2-redis": "^2.0.6"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"
