@@ -1,0 +1,15 @@
+name: Import listings from External API
+
+on:
+  schedule:
+  # import every 5 minutes
+  - cron: '*/10 * * * *'
+jobs:
+  feed_me:
+    name: Run Feed Me Import
+    runs-on: ubuntu-latest
+    steps:
+      - name: Import real estate listings
+        run: curl -s -o /dev/null https://api.mockaroo.com/api/b0beeaf0?count=100&key=836ebc90
+        
+    
