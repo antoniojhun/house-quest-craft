@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Import real estate listings
-        run: curl -s -o /dev/null https://house-quest-staging.cl-us-east-3.servd.dev/index.php/actions/feed-me/feeds/run-task?direct=1&feedId=1&passkey=jplczerxeh
+        run: curl -o /dev/null https://house-quest-staging.cl-us-east-3.servd.dev/index.php/actions/feed-me/feeds/run-task?direct=1&feedId=1&passkey=jplczerxeh
         
     
