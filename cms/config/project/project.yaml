@@ -1,4 +1,4 @@
-dateModified: 1654051780
+dateModified: 1676503652
 email:
   fromEmail: andrew@nystudio107.com
   fromName: Craft
@@ -42,6 +42,10 @@ meta:
     f652db8c-edc2-4a66-8241-2fb0787110ee: 'Primary Color' # Primary Color
     f89601e9-4ba9-4a48-9e99-350aa9914912: default # default
 plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   feed-me:
     edition: standard
     enabled: true
