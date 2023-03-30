@@ -11,6 +11,7 @@ return [
                 'transformer' => function(Entry $entry) {
                     return [
                         'title' => $entry->title,
+                        'slug' => $entry->slug,
                         'url' => $entry->url,
                         'postDate' => $entry->postDate->format('Y-m-d'),
                         'articleSummary' => $entry->summaryText,
